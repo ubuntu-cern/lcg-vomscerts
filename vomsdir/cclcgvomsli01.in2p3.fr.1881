@@ -1,0 +1,90 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1881 (0x759)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=FR, O=CNRS, CN=GRID-FR
+        Validity
+            Not Before: Mar  1 14:01:52 2007 GMT
+            Not After : Mar  1 14:01:52 2008 GMT
+        Subject: O=GRID-FR, C=FR, O=CNRS, OU=CC-LYON, CN=cclcgvomsli01.in2p3.fr
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:d3:81:8b:c1:9e:ef:6f:e3:4e:36:5e:b8:5f:d3:
+                    2a:48:6d:ff:c8:31:fe:00:01:ca:bc:e8:31:20:d4:
+                    8c:89:d9:74:92:1d:48:01:a4:1f:35:e1:bf:32:15:
+                    45:f9:41:9a:f8:9e:08:d4:fe:63:52:5b:a9:c1:cd:
+                    c5:ff:c0:c3:74:fe:34:f5:f8:16:36:56:e1:af:cc:
+                    aa:71:27:6d:47:96:df:01:8d:b3:d2:cc:95:50:bc:
+                    b9:f4:dd:b7:3e:62:2d:90:43:04:9b:62:84:72:c5:
+                    ed:c9:fc:2c:e4:92:27:47:6d:43:bd:52:e3:51:f8:
+                    48:f2:48:14:96:07:5a:6e:a9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, SSL Server
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement
+            Netscape Comment: 
+                Certificat serveur GRID-FR
+            X509v3 Subject Key Identifier: 
+                9B:02:00:C0:8B:DC:28:71:FE:F0:C3:4F:E4:96:F1:64:C4:53:D4:76
+            X509v3 Authority Key Identifier: 
+                keyid:77:49:79:C1:F6:BB:92:F0:EC:08:C3:EE:D1:9C:B0:77:10:8C:93:2F
+                DirName:/C=FR/O=CNRS/CN=CNRS-Projets
+                serial:0C
+
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.10813.1.1.8.1.0
+
+            X509v3 Subject Alternative Name: 
+                email:grid-exploitation@cc.in2p3.fr
+            X509v3 CRL Distribution Points: 
+                URI:http://crls.services.cnrs.fr/GRID-FR/getder.crl
+
+            1.3.6.1.4.1.7650.1: 
+                unicoreNJS
+    Signature Algorithm: sha1WithRSAEncryption
+        40:8b:64:1a:a6:a1:73:5b:ab:25:2f:70:2b:e3:f3:87:3f:7e:
+        5c:e1:13:81:ee:2b:fa:fc:68:4d:81:e7:c8:d7:9f:27:6e:72:
+        8a:ab:99:b5:dd:1a:a6:3d:52:29:a1:e3:87:b6:3d:6b:2d:cd:
+        b2:f3:89:60:a0:57:c3:2a:c8:27:25:2b:3a:2b:63:9d:48:09:
+        8a:f6:d1:b4:a1:1e:90:dd:6c:d0:1f:e6:8d:d5:17:87:06:2e:
+        95:e0:2f:0f:17:c5:4b:b5:42:21:5f:70:c1:76:36:34:24:74:
+        b7:f6:df:f1:36:61:97:25:6f:31:e1:aa:9f:0c:ba:11:36:e5:
+        1a:e3:9b:c8:32:e4:85:ce:e9:b4:77:c6:fa:57:38:dd:46:a3:
+        09:f1:25:81:d8:1d:ed:9d:0f:6f:1b:b8:3f:8c:91:9a:e0:10:
+        e7:18:4c:23:ec:d5:18:35:9d:94:da:38:d8:1c:97:42:72:f1:
+        19:82:da:79:49:74:b2:a8:c1:49:59:ba:77:e0:4a:09:02:19:
+        32:b8:55:8b:c8:fb:da:30:0c:59:d9:e4:be:03:d4:d9:ef:ac:
+        77:8c:cb:20:46:10:17:a9:8b:ae:85:68:87:36:e7:f1:a4:7a:
+        75:37:5b:78:cc:88:96:3f:d6:f6:f1:7e:7a:94:9f:b1:b1:77:
+        24:e8:09:45
+-----BEGIN CERTIFICATE-----
+MIIEBDCCAuygAwIBAgICB1kwDQYJKoZIhvcNAQEFBQAwLjELMAkGA1UEBhMCRlIx
+DTALBgNVBAoTBENOUlMxEDAOBgNVBAMTB0dSSUQtRlIwHhcNMDcwMzAxMTQwMTUy
+WhcNMDgwMzAxMTQwMTUyWjBhMRAwDgYDVQQKEwdHUklELUZSMQswCQYDVQQGEwJG
+UjENMAsGA1UEChMEQ05SUzEQMA4GA1UECxMHQ0MtTFlPTjEfMB0GA1UEAxMWY2Ns
+Y2d2b21zbGkwMS5pbjJwMy5mcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA
+04GLwZ7vb+NONl64X9MqSG3/yDH+AAHKvOgxINSMidl0kh1IAaQfNeG/MhVF+UGa
++J4I1P5jUlupwc3F/8DDdP409fgWNlbhr8yqcSdtR5bfAY2z0syVULy59N23PmIt
+kEMEm2KEcsXtyfws5JInR21DvVLjUfhI8kgUlgdabqkCAwEAAaOCAXswggF3MAwG
+A1UdEwEB/wQCMAAwEQYJYIZIAYb4QgEBBAQDAgbAMA4GA1UdDwEB/wQEAwID+DAp
+BglghkgBhvhCAQ0EHBYaQ2VydGlmaWNhdCBzZXJ2ZXVyIEdSSUQtRlIwHQYDVR0O
+BBYEFJsCAMCL3Chx/vDDT+SW8WTEU9R2MFsGA1UdIwRUMFKAFHdJecH2u5Lw7AjD
+7tGcsHcQjJMvoTekNTAzMQswCQYDVQQGEwJGUjENMAsGA1UEChMEQ05SUzEVMBMG
+A1UEAxMMQ05SUy1Qcm9qZXRzggEMMBkGA1UdIAQSMBAwDgYMKwYBBAHUPQEBCAEA
+MCgGA1UdEQQhMB+BHWdyaWQtZXhwbG9pdGF0aW9uQGNjLmluMnAzLmZyMEAGA1Ud
+HwQ5MDcwNaAzoDGGL2h0dHA6Ly9jcmxzLnNlcnZpY2VzLmNucnMuZnIvR1JJRC1G
+Ui9nZXRkZXIuY3JsMBYGCCsGAQQBu2IBBAp1bmljb3JlTkpTMA0GCSqGSIb3DQEB
+BQUAA4IBAQBAi2QapqFzW6slL3Ar4/OHP35c4ROB7iv6/GhNgefI158nbnKKq5m1
+3RqmPVIpoeOHtj1rLc2y84lgoFfDKsgnJSs6K2OdSAmK9tG0oR6Q3WzQH+aN1ReH
+Bi6V4C8PF8VLtUIhX3DBdjY0JHS39t/xNmGXJW8x4aqfDLoRNuUa45vIMuSFzum0
+d8b6VzjdRqMJ8SWB2B3tnQ9vG7g/jJGa4BDnGEwj7NUYNZ2U2jjYHJdCcvEZgtp5
+SXSyqMFJWbp34EoJAhkyuFWLyPvaMAxZ2eS+A9TZ76x3jMsgRhAXqYuuhWiHNufx
+pHp1N1t4zIiWP9b28X56lJ+xsXck6AlF
+-----END CERTIFICATE-----
