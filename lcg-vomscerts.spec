@@ -55,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%{prefix}/vomsdir/cclcgvomsli01.in2p3.fr.764
 %{prefix}/vomsdir/cclcgvomsli01.in2p3.fr.1881
 %{prefix}/vomsdir/lcg-voms.cern.ch.2580
 %{prefix}/vomsdir/voms.cern.ch.2006-11-20
