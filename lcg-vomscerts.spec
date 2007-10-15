@@ -1,6 +1,6 @@
 Summary:        VOMS server certificates for LCG VOs + biomed + egeode
 Name:           lcg-vomscerts
-Version:        4.6.0
+Version:        4.7.0
 Release:        1
 Copyright:      LCG
 Group:          Grid
@@ -58,5 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %{prefix}/vomsdir/cclcgvomsli01.in2p3.fr.1881
 %{prefix}/vomsdir/lcg-voms.cern.ch.2007-05-07
 %{prefix}/vomsdir/vo.racf.bnl.gov.15998
-%{prefix}/vomsdir/voms.cern.ch.2006-11-20
 %{prefix}/vomsdir/voms-test.cern.ch.2006-11-20
+%{prefix}/vomsdir/voms-test.cern.ch.2007-10-15
+%{prefix}/vomsdir/voms.cern.ch.2006-11-20
+%{prefix}/vomsdir/voms.cern.ch.2007-10-15
