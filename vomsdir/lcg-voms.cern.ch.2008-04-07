@@ -1,0 +1,105 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            5d:6e:c9:b7:00:02:00:00:1d:8e
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: DC=ch, DC=cern, CN=CERN Trusted Certification Authority
+        Validity
+            Not Before: Apr  7 12:20:08 2008 GMT
+            Not After : Apr  7 12:20:08 2009 GMT
+        Subject: DC=ch, DC=cern, OU=computers, CN=lcg-voms.cern.ch
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:c1:63:3f:51:81:48:4b:01:67:ba:ad:4a:5c:cd:
+                    cf:c4:08:02:f6:c9:7f:9f:67:6b:cc:93:ae:0d:08:
+                    dd:01:5b:5a:8c:42:e9:08:34:a4:7d:2a:4f:56:14:
+                    26:d0:2c:44:15:b2:ab:0c:a4:87:0b:dc:cb:88:72:
+                    0a:1d:d5:30:5e:36:33:ff:76:d2:b8:ef:ef:77:4d:
+                    e2:26:5e:f1:7b:4f:ab:70:07:5d:71:d1:0a:d4:07:
+                    4e:55:2f:38:43:fb:f4:f4:f8:fb:ea:a5:38:24:34:
+                    2a:95:4d:26:c2:a3:90:0f:56:1e:c5:46:5f:45:05:
+                    69:40:76:74:29:e1:59:19:0d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                88:A4:35:E4:19:84:1C:A6:E3:CF:F7:3E:2B:D5:57:C9:E9:1E:13:86
+            X509v3 Authority Key Identifier: 
+                keyid:98:CC:92:D0:46:30:36:8C:B0:ED:98:0D:72:51:A9:47:4C:DD:BE:21
+
+            X509v3 CRL Distribution Points: 
+                URI:http://ca.cern.ch/ca/crl/CERN%20Trusted%20Certification%20Authority.crl
+                URI:ldap:///CN=CERN%20Trusted%20Certification%20Authority,CN=cernpki01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=cern,DC=ch?certificateRevocationList?base?objectClass=cRLDistributionPoint
+
+            Authority Information Access: 
+                CA Issuers - URI:http://ca.cern.ch/ca/crl/cernpki01.cern.ch_CERN%20Trusted%20Certification%20Authority(2).crt
+                CA Issuers - URI:ldap:///CN=CERN%20Trusted%20Certification%20Authority,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=cern,DC=ch?cACertificate?base?objectClass=certificationAuthority
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            1.3.6.1.4.1.311.21.7: 
+                0..&+.....7............+...7...b....P...[..d...
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            1.3.6.1.4.1.311.21.10: 
+                0.0
+..+.......0
+..+.......
+            X509v3 Subject Alternative Name: 
+                DNS:lcg-voms.cern.ch
+    Signature Algorithm: sha1WithRSAEncryption
+        bd:f8:d4:93:66:29:fb:e3:d2:13:89:7c:f1:66:e8:5d:a3:00:
+        98:f4:f8:ba:03:c2:fe:67:c4:27:d9:fb:96:f3:ca:ac:25:b8:
+        bd:c3:92:f8:26:1a:77:77:9d:99:0d:da:56:44:d7:16:95:38:
+        85:e8:58:61:48:87:23:1d:77:72:5c:f9:28:43:1e:a6:b2:c1:
+        0c:ba:7f:8e:6d:63:e0:18:a0:37:e9:02:86:fc:8a:1e:f3:d8:
+        23:f5:18:10:74:68:91:d0:ff:81:fa:f5:1d:1c:2c:fe:ba:ff:
+        02:1b:b1:36:9a:21:b2:36:9b:c0:9c:6d:58:9e:b4:49:a6:ca:
+        5a:2a:cc:18:11:cb:cb:23:c6:9f:93:a1:9a:f1:f9:b3:09:ad:
+        b5:1b:d8:cc:cb:d2:8e:6e:97:f8:53:70:28:c8:39:bd:03:92:
+        09:0f:00:0b:67:87:47:c0:a8:cb:f4:50:5b:d6:2d:bc:0e:d4:
+        18:36:0d:3e:b1:ca:27:48:ca:bb:cc:76:09:69:bc:9a:57:eb:
+        e8:79:56:9f:8a:50:b2:66:90:0a:05:fe:73:6a:fa:dc:74:b6:
+        ea:62:5a:7e:8f:9c:58:16:64:57:6c:2f:29:ac:42:91:62:4f:
+        a4:eb:99:52:0f:88:77:c2:62:b6:3b:9c:31:2d:a9:4b:a6:4c:
+        fb:48:62:d1
+-----BEGIN CERTIFICATE-----
+MIIGOjCCBSKgAwIBAgIKXW7JtwACAAAdjjANBgkqhkiG9w0BAQUFADBZMRIwEAYK
+CZImiZPyLGQBGRYCY2gxFDASBgoJkiaJk/IsZAEZFgRjZXJuMS0wKwYDVQQDEyRD
+RVJOIFRydXN0ZWQgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMDgwNDA3MTIy
+MDA4WhcNMDkwNDA3MTIyMDA4WjBZMRIwEAYKCZImiZPyLGQBGRYCY2gxFDASBgoJ
+kiaJk/IsZAEZFgRjZXJuMRIwEAYDVQQLEwljb21wdXRlcnMxGTAXBgNVBAMTEGxj
+Zy12b21zLmNlcm4uY2gwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFjP1GB
+SEsBZ7qtSlzNz8QIAvbJf59na8yTrg0I3QFbWoxC6Qg0pH0qT1YUJtAsRBWyqwyk
+hwvcy4hyCh3VMF42M/920rjv73dN4iZe8XtPq3AHXXHRCtQHTlUvOEP79PT4++ql
+OCQ0KpVNJsKjkA9WHsVGX0UFaUB2dCnhWRkNAgMBAAGjggOGMIIDgjAdBgNVHQ4E
+FgQUiKQ15BmEHKbjz/c+K9VXyekeE4YwHwYDVR0jBBgwFoAUmMyS0EYwNoyw7ZgN
+clGpR0zdviEwggE0BgNVHR8EggErMIIBJzCCASOgggEfoIIBG4ZHaHR0cDovL2Nh
+LmNlcm4uY2gvY2EvY3JsL0NFUk4lMjBUcnVzdGVkJTIwQ2VydGlmaWNhdGlvbiUy
+MEF1dGhvcml0eS5jcmyGgc9sZGFwOi8vL0NOPUNFUk4lMjBUcnVzdGVkJTIwQ2Vy
+dGlmaWNhdGlvbiUyMEF1dGhvcml0eSxDTj1jZXJucGtpMDEsQ049Q0RQLENOPVB1
+YmxpYyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRp
+b24sREM9Y2VybixEQz1jaD9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/
+b2JqZWN0Q2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnQwggFEBggrBgEFBQcBAQSC
+ATYwggEyMGgGCCsGAQUFBzAChlxodHRwOi8vY2EuY2Vybi5jaC9jYS9jcmwvY2Vy
+bnBraTAxLmNlcm4uY2hfQ0VSTiUyMFRydXN0ZWQlMjBDZXJ0aWZpY2F0aW9uJTIw
+QXV0aG9yaXR5KDIpLmNydDCBxQYIKwYBBQUHMAKGgbhsZGFwOi8vL0NOPUNFUk4l
+MjBUcnVzdGVkJTIwQ2VydGlmaWNhdGlvbiUyMEF1dGhvcml0eSxDTj1BSUEsQ049
+UHVibGljJTIwS2V5JTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJh
+dGlvbixEQz1jZXJuLERDPWNoP2NBQ2VydGlmaWNhdGU/YmFzZT9vYmplY3RDbGFz
+cz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/
+BAQDAgWgMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCIO90AmC7Y0Nhu2LK4He
+9TeFgNBiHobSzFCB2fNbAgFkAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEF
+BQcDATAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMBsG
+A1UdEQQUMBKCEGxjZy12b21zLmNlcm4uY2gwDQYJKoZIhvcNAQEFBQADggEBAL34
+1JNmKfvj0hOJfPFm6F2jAJj0+LoDwv5nxCfZ+5bzyqwluL3DkvgmGnd3nZkN2lZE
+1xaVOIXoWGFIhyMdd3Jc+ShDHqaywQy6f45tY+AYoDfpAob8ih7z2CP1GBB0aJHQ
+/4H69R0cLP66/wIbsTaaIbI2m8CcbVietEmmyloqzBgRy8sjxp+ToZrx+bMJrbUb
+2MzL0o5ul/hTcCjIOb0DkgkPAAtnh0fAqMv0UFvWLbwO1Bg2DT6xyidIyrvMdglp
+vJpX6+h5Vp+KULJmkAoF/nNq+tx0tupiWn6PnFgWZFdsLymsQpFiT6TrmVIPiHfC
+YrY7nDEtqUumTPtIYtE=
+-----END CERTIFICATE-----
