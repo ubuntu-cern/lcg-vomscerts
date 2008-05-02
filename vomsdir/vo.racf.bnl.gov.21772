@@ -1,0 +1,89 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 21772 (0x550c)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: DC=org, DC=DOEGrids, OU=Certificate Authorities, CN=DOEGrids CA 1
+        Validity
+            Not Before: Feb 28 17:42:52 2008 GMT
+            Not After : Feb 27 17:42:52 2009 GMT
+        Subject: DC=org, DC=doegrids, OU=Services, CN=vo.racf.bnl.gov
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:f5:f9:35:c5:96:f9:86:f6:53:4a:49:35:11:42:
+                    57:be:f6:c5:91:04:44:1e:5d:46:17:0d:78:19:66:
+                    54:55:09:6d:a2:bf:e8:1a:8e:b0:6d:bd:da:c6:5b:
+                    c8:e1:2e:ef:73:0a:ff:d2:80:76:50:a0:e0:fd:26:
+                    e8:0a:0c:e9:af:04:68:45:dd:5b:85:47:c3:c9:15:
+                    8e:c6:ee:c1:4e:a1:70:83:97:6f:03:de:87:69:db:
+                    e9:06:92:9f:fc:72:15:b4:ce:cf:23:77:79:b4:bb:
+                    96:6f:8f:99:44:58:1e:5d:f2:15:db:56:9d:75:72:
+                    6f:92:57:2d:9c:b8:2a:dd:dc:55:f8:88:b6:b7:1c:
+                    cb:b4:e0:4c:b5:6c:7b:84:2f:cc:74:1a:41:7c:cb:
+                    56:ec:87:c5:ea:c7:10:b3:60:27:15:fd:ae:d6:fd:
+                    bd:b4:b1:b2:f8:37:9d:47:3f:bf:34:b4:4b:74:a2:
+                    1f:b1:c7:8a:7c:e9:1c:15:f6:2c:0a:bc:4d:4f:a5:
+                    99:b2:06:da:ed:81:78:97:19:5d:a1:80:75:fc:ca:
+                    a9:0f:ae:f3:fa:d4:dc:9d:c4:91:2a:ea:e0:1f:d6:
+                    07:c1:d2:08:f1:48:48:05:e6:9f:0c:f6:08:22:e8:
+                    92:a0:b0:ff:d5:ba:37:8f:8e:70:e6:40:81:d1:4e:
+                    55:15
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Netscape Cert Type: 
+                SSL Client, SSL Server, S/MIME
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113612.3.7.1.2.9
+
+            X509v3 CRL Distribution Points: 
+                URI:http://pki1.doegrids.org/CRL/1c3f2ca8.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:vo.racf.bnl.gov, email:jpackard@bnl.gov
+            X509v3 Authority Key Identifier: 
+                keyid:CA:19:1D:12:8E:6E:A4:38:5D:42:D4:31:0E:08:DB:D9:8D:17:0D:5D
+
+    Signature Algorithm: sha1WithRSAEncryption
+        15:cc:d1:49:95:fa:4c:ce:e0:06:57:81:c1:69:be:0d:4e:0f:
+        48:62:3b:08:33:6c:d9:d1:a6:2a:d5:2c:64:25:75:1b:22:39:
+        f1:d7:f1:1f:2b:4a:0b:6b:79:a1:84:b2:01:e5:e4:6d:32:0e:
+        73:6d:01:24:63:34:a0:64:c4:0a:aa:91:13:7f:bf:99:a0:7a:
+        38:30:af:14:96:60:9e:b2:13:06:2a:61:a4:61:8b:bc:25:f7:
+        cd:83:c9:1b:56:48:4c:7e:a2:eb:f0:d9:59:68:28:2d:dc:a2:
+        10:81:cf:28:54:27:c0:6a:26:87:88:10:5c:f8:83:a4:f2:67:
+        57:de:6f:2d:95:ac:05:5b:9e:c3:bc:bc:10:7f:f2:5c:e7:8c:
+        38:ad:8a:e2:87:64:26:2f:1e:e3:fc:5e:4b:1d:8f:48:0d:b6:
+        20:48:4d:46:bd:25:5d:bc:05:8b:6c:50:e7:1f:6d:f1:2f:69:
+        53:4c:cd:48:42:89:ee:50:54:fd:c6:ee:75:4c:97:73:57:ac:
+        9d:3c:da:6f:84:e6:e8:21:e9:ef:6d:d4:fb:81:69:52:ec:f4:
+        8f:06:f7:33:5b:26:40:23:ba:85:57:ee:13:1d:ae:4d:01:b3:
+        4b:7e:ba:2f:a2:af:33:11:6a:43:7d:65:e2:4b:a2:68:3e:0c:
+        ab:26:8d:2e
+-----BEGIN CERTIFICATE-----
+MIIEDTCCAvWgAwIBAgICVQwwDQYJKoZIhvcNAQEFBQAwaTETMBEGCgmSJomT8ixk
+ARkWA29yZzEYMBYGCgmSJomT8ixkARkWCERPRUdyaWRzMSAwHgYDVQQLExdDZXJ0
+aWZpY2F0ZSBBdXRob3JpdGllczEWMBQGA1UEAxMNRE9FR3JpZHMgQ0EgMTAeFw0w
+ODAyMjgxNzQyNTJaFw0wOTAyMjcxNzQyNTJaMFwxEzARBgoJkiaJk/IsZAEZFgNv
+cmcxGDAWBgoJkiaJk/IsZAEZFghkb2VncmlkczERMA8GA1UECxMIU2VydmljZXMx
+GDAWBgNVBAMTD3ZvLnJhY2YuYm5sLmdvdjCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAPX5NcWW+Yb2U0pJNRFCV772xZEERB5dRhcNeBlmVFUJbaK/6BqO
+sG292sZbyOEu73MK/9KAdlCg4P0m6AoM6a8EaEXdW4VHw8kVjsbuwU6hcIOXbwPe
+h2nb6QaSn/xyFbTOzyN3ebS7lm+PmURYHl3yFdtWnXVyb5JXLZy4Kt3cVfiItrcc
+y7TgTLVse4QvzHQaQXzLVuyHxerHELNgJxX9rtb9vbSxsvg3nUc/vzS0S3SiH7HH
+inzpHBX2LAq8TU+lmbIG2u2BeJcZXaGAdfzKqQ+u8/rU3J3EkSrq4B/WB8HSCPFI
+SAXmnwz2CCLokqCw/9W6N4+OcOZAgdFOVRUCAwEAAaOByzCByDARBglghkgBhvhC
+AQEEBAMCBeAwDgYDVR0PAQH/BAQDAgTwMBgGA1UdIAQRMA8wDQYLKoZIhvdMAwcB
+AgkwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL3BraTEuZG9lZ3JpZHMub3JnL0NS
+TC8xYzNmMmNhOC5jcmwwLAYDVR0RBCUwI4IPdm8ucmFjZi5ibmwuZ292gRBqcGFj
+a2FyZEBibmwuZ292MB8GA1UdIwQYMBaAFMoZHRKObqQ4XULUMQ4I29mNFw1dMA0G
+CSqGSIb3DQEBBQUAA4IBAQAVzNFJlfpMzuAGV4HBab4NTg9IYjsIM2zZ0aYq1Sxk
+JXUbIjnx1/EfK0oLa3mhhLIB5eRtMg5zbQEkYzSgZMQKqpETf7+ZoHo4MK8UlmCe
+shMGKmGkYYu8JffNg8kbVkhMfqLr8NlZaCgt3KIQgc8oVCfAaiaHiBBc+IOk8mdX
+3m8tlawFW57DvLwQf/Jc54w4rYrih2QmLx7j/F5LHY9IDbYgSE1GvSVdvAWLbFDn
+H23xL2lTTM1IQonuUFT9xu51TJdzV6ydPNpvhOboIenvbdT7gWlS7PSPBvczWyZA
+I7qFV+4THa5NAbNLfrovoq8zEWpDfWXiS6JoPgyrJo0u
+-----END CERTIFICATE-----
