@@ -1,0 +1,40 @@
+lcg-vomscerts (5.3.0-1) intrepid; urgency=low
+
+  * added next cert for cclcgvomsli01.in2p3.fr (biomed + egeode)
+  * added next cert for vo.racf.bnl.gov (atlas)
+  * added cert for voms.fnal.gov (cms)
+
+ -- Frohner Ákos <akos@frohner.hu>  Sun, 08 Feb 2009 22:21:42 +0100
+
+lcg-vomscerts (5.2.0-1) unstable; urgency=low
+
+  * renamed all certificates with ".pem" suffixes because of bug#43395
+  * removed expired certificate of voms.cern.ch
+
+ -- Frohner Ákos <akos@frohner.hu>  Thu, 30 Oct 2008 02:19:02 +0100
+
+lcg-vomscerts (5.0.0-1) unstable; urgency=low
+  
+  * added next host cert for vo.racf.bnl.gov (ATLAS)
+  * removed old cert of lcg-voms.cern.ch
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 11 Jun 2008 11:08:12 +0200
+
+lcg-vomscerts (4.9.0-1) unstable; urgency=low
+
+  * new CERN VOMS server certificate
+  * new cert for lcg-voms.cern.ch added
+  * old cert for cclcgvomsli01.in2p3.fr removed
+  * file modes improved from 755 to 644
+  * added new cert for biomed + egeode
+  * removed expired certs for voms.cern.ch and voms-test.cern.ch
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 11 Jun 2008 11:00:56 +0200
+
+lcg-vomscerts (4.7.0-1) unstable; urgency=low
+
+
+  * First release for Debian/Ubuntu.
+
+ -- FROHNER Ákos <akos@frohner.hu>  Wed, 22 Nov 2007 00:00:00 +0100
+

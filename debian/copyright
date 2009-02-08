@@ -1,0 +1,15 @@
+This package was debianized by FROHNER Ákos <akos@frohner.hu> on
+Wed,  22 Nov 2007 10:18:00 +0100.
+
+It was packaged from the repository of http://grid-deployment.web.cern.ch/
+
+Upstream Author: LCG
+
+Copyright: (c) 2007, FROHNER Ákos <akos@frohner.hu>
+
+License: VOMS certificates are free to distribute.
+    
+
+The Debian packaging is (C) 2007, FROHNER Ákos <akos@frohner.hu> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
