@@ -1,3 +1,10 @@
+lcg-vomscerts (5.4.0-1) intrepid; urgency=low
+
+  * added next cert for lcg-voms.cern.ch
+  * removed old certs for cclcgvomsli01.in2p3.fr and vo.racf.bnl.gov
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 25 Mar 2009 21:52:18 +0100
+
 lcg-vomscerts (5.3.0-1) intrepid; urgency=low
 
   * added next cert for cclcgvomsli01.in2p3.fr (biomed + egeode)
