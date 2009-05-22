@@ -1,3 +1,9 @@
+lcg-vomscerts (5.4.0-2) intrepid jaunty; urgency=low
+
+  * Uploading to jaunty as well, no source changes. 
+
+ -- Frohner Ákos <akos@frohner.hu>  Fri, 22 May 2009 17:01:51 +0200
+
 lcg-vomscerts (5.4.0-1) intrepid; urgency=low
 
   * added next cert for lcg-voms.cern.ch
