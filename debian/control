@@ -1,0 +1,12 @@
+Source: lcg-vomscerts
+Section: contrib/utils
+Priority: extra
+Architecture: all
+Maintainer: FROHNER Ákos <akos@frohner.hu>
+Build-Depends: debhelper (>= 5), coreutils
+Standards-Version: 3.7.2
+
+Package: lcg-vomscerts
+Architecture: all
+Description: LCG VOMS certificates
+ VOMS server certificates for LCG VOs + biomed + egeode
