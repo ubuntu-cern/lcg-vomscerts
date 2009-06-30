@@ -1,3 +1,10 @@
+lcg-vomscerts (5.5.0-1) intrepid jaunty; urgency=low
+
+  * added next certs for voms.cern.ch and voms-pilot.cern.ch
+  * removed old cert for lcg-voms.cern.ch
+
+ -- Maarten Litmaath <Maarten.Litmaath@cern.ch>  Tue, 30 Jun 2009 14:19:26 +0200
+
 lcg-vomscerts (5.4.0-2) intrepid jaunty; urgency=low
 
   * Uploading to jaunty as well, no source changes. 
