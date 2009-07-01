@@ -1,3 +1,9 @@
+lcg-vomscerts (5.5.1-1) intrepid jaunty; urgency=low
+
+  * added /etc/vomses directory 
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 01 Jul 2009 14:23:29 +0200
+
 lcg-vomscerts (5.5.0-1) intrepid jaunty; urgency=low
 
   * added next certs for voms.cern.ch and voms-pilot.cern.ch

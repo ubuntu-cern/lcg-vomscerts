@@ -1,0 +1,2 @@
+"alice" "lcg-voms.cern.ch" "15000" "/DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch" "alice"
+"alice" "voms.cern.ch" "15000" "/DC=ch/DC=cern/OU=computers/CN=voms.cern.ch" "alice"
