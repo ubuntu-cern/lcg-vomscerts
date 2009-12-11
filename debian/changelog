@@ -1,3 +1,9 @@
+lcg-vomscerts (5.7.0-1) intrepid jaunty; urgency=low
+
+  * added next certs for cclcgvomsli01.in2p3.fr and vo.racf.bnl.gov
+
+ -- Maarten Litmaath <Maarten.Litmaath@cern.ch>  Fri, 11 Dec 2009 14:58:37 +0100
+
 lcg-vomscerts (5.6.0-1) intrepid jaunty; urgency=low
 
   * added new cert for voms.fnal.gov
