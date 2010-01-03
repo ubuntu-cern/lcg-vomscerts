@@ -1,8 +1,8 @@
 Summary:        VOMS server certificates for LCG VOs + biomed + egeode
 Name:           lcg-vomscerts
-Version:        5.5.1
+Version:        5.7.0
 Release:        1
-License:        LCG
+Copyright:      LCG
 Group:          Grid
 URL:            http://grid-deployment.web.cern.ch/
 Packager:       LCG
@@ -46,6 +46,9 @@ VOMS server certificates for LCG VOs + biomed + egeode
 mkdir -p $RPM_BUILD_ROOT%{prefix}
 make install prefix=$RPM_BUILD_ROOT%{prefix}
 
+#
+# Clean
+#
 %clean
 
 rm -rf $RPM_BUILD_ROOT
