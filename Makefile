@@ -1,4 +1,4 @@
-prefix=/etc/grid-security
+prefix=$(install_prefix)/etc/grid-security
 
 .PHONY: configure install clean
 
@@ -6,7 +6,7 @@ all: configure
 
 install: 
 	@echo installing ...
-	@mkdir -p $(install_prefix)/etc/grid-security/vomsdir
+	@mkdir -p ${prefix}/vomsdir
 	@install -m 0644 vomsdir/cclcgvomsli01.in2p3.fr.1413.pem ${prefix}/vomsdir
 	@install -m 0644 vomsdir/lcg-voms.cern.ch.2009-03-03.pem ${prefix}/vomsdir
 	@install -m 0644 vomsdir/lcg-voms.cern.ch.2010-01-18.pem ${prefix}/vomsdir
