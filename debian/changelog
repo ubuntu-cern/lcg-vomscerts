@@ -1,3 +1,9 @@
+lcg-vomscerts (5.8.1-1) hardy karmic; urgency=low
+
+  * Uploading to karmic.
+
+ -- Frohner Ákos <akos@frohner.hu>  Fri, 22 Jan 2010 12:00:43 +0100
+
 lcg-vomscerts (5.8.0-1) intrepid jaunty; urgency=low
 
   * added next cert for lcg-voms.cern.ch
