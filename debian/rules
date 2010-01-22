@@ -28,7 +28,7 @@ install: build
 	dh_testroot
 	dh_clean -k 
 	dh_installdirs
-	$(MAKE) prefix=$(CURDIR)/debian/lcg-vomscerts install
+	$(MAKE) install_prefix=$(CURDIR)/debian/lcg-vomscerts install
 
 binary-indep: build install
 	dh_testdir
